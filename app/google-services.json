@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "544125567913",
+    "project_id": "budget-12738",
+    "storage_bucket": "budget-12738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544125567913:android:535d4cdc559408979cbab8",
+        "android_client_info": {
+          "package_name": "com.russartstudio.budget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544125567913-ptfr96q7rcgcu7kik238soqfc5jv2pnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.russartstudio.budget",
+            "certificate_hash": "03d404d7f51acbe6c85c535efd1ad83eb35a7bd7"
+          }
+        },
+        {
+          "client_id": "544125567913-87fi1mgnf614tcrroooba69mcskqrok2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVFsXMdXugX1OQQbNU95PwUPCNjs_blAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544125567913-87fi1mgnf614tcrroooba69mcskqrok2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

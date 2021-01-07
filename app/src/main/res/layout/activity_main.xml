@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLoan"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorLoan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDebt" />
+
+    <ImageView
+        android:id="@+id/ivDebt"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorDebt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBalance" />
+
+    <ImageView
+        android:id="@+id/ivBalance"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorBrownBalance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivIncome" />
+
+
+    <ImageView
+        android:id="@+id/ivExpenses"
+        android:layout_width="0dp"
+        android:layout_height="288dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorRedExpenses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivBalance"
+        app:layout_constraintTop_toBottomOf="@+id/ivReserves" />
+
+    <ImageView
+        android:id="@+id/ivIncome"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreenIncome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBudget" />
+
+    <ImageView
+        android:id="@+id/ivReserves"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorMetallicGold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivBudget"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBudget"
+        android:layout_width="180dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreenBudget"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBudget"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/budget"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivBudget"
+        app:layout_constraintStart_toStartOf="@+id/ivBudget"
+        app:layout_constraintTop_toTopOf="@+id/ivBudget" />
+
+    <TextView
+        android:id="@+id/tvReserves"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/reserves"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivReserves"
+        app:layout_constraintTop_toTopOf="@+id/ivReserves" />
+
+    <TextView
+        android:id="@+id/tvIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/income"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivIncome"
+        app:layout_constraintTop_toTopOf="@+id/ivIncome" />
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/balance"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivBalance"
+        app:layout_constraintTop_toTopOf="@+id/ivBalance" />
+    <TextView
+        android:id="@+id/tvLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/loan"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivLoan"
+        app:layout_constraintTop_toTopOf="@+id/ivLoan" />
+    <TextView
+        android:id="@+id/tvDebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/debt"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivDebt"
+        app:layout_constraintTop_toTopOf="@+id/ivDebt" />
+
+    <TextView
+        android:id="@+id/tvExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/expenses"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toTopOf="@+id/ivExpenses" />
+
+    <TextView
+        android:id="@+id/tvBudgetNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivBudget"
+        app:layout_constraintTop_toBottomOf="@+id/tvBudget" />
+    <TextView
+        android:id="@+id/tvReservesNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivReserves"
+        app:layout_constraintTop_toBottomOf="@+id/tvReserves" />
+
+    <TextView
+        android:id="@+id/tvIncomeNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivIncome"
+        app:layout_constraintTop_toBottomOf="@+id/tvIncome" />
+
+    <TextView
+        android:id="@+id/tvBalanceNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivBalance"
+        app:layout_constraintTop_toBottomOf="@+id/tvBalance" />
+    <TextView
+        android:id="@+id/tvLoanNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivLoan"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoan" />
+    <TextView
+        android:id="@+id/tvDebtNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivDebt"
+        app:layout_constraintTop_toBottomOf="@+id/tvDebt" />
+
+
+    <TextView
+        android:id="@+id/tvPleasures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:text="@string/pleasures"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toBottomOf="@+id/tvExpensesNb" />
+
+    <TextView
+        android:id="@+id/tvExpensesNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toBottomOf="@+id/tvExpenses" />
+    <TextView
+        android:id="@+id/tvSocialize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/socialize"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toBottomOf="@+id/tvPleasures" />
+
+    <TextView
+        android:id="@+id/tvSupply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/supply"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toBottomOf="@+id/tvSocialize" />
+    <TextView
+        android:id="@+id/tvOthers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/others"
+        app:layout_constraintStart_toStartOf="@+id/ivExpenses"
+        app:layout_constraintTop_toBottomOf="@+id/tvSupply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

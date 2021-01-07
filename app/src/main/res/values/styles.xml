@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#18611C</item>
+        <item name="colorPrimaryDark">#0B5915</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="IncomeTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorGreenIncome</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="editTextColor">@color/colorWhite</item>
+    </style>
+    <style name="DebtTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorDebt</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="editTextColor">@color/colorWhite</item>
+    </style>
+    <style name="ReservesTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorMetallicGold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="editTextColor">@color/colorWhite</item>
+        <item name="editTextBackground">@color/colorWhite</item>
+    </style>
+    <style name="BudgetTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorGreenBudget</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="editTextColor">@color/colorWhite</item>
+        <item name="editTextBackground">@color/colorWhite</item>
+    </style>
+    <style name="ExpensesTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorRedExpenses</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="editTextColor">@color/colorWhite</item>
+        <item name="editTextBackground">@color/colorWhite</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="reserves">Reserves</string>
+    <string name="income">Income</string>
+    <string name="balance">Balance</string>
+    <string name="expenses">Expenses</string>
+    <string name="_0">0.0</string>
+    <string name="debt">Debt</string>
+    <string name="pleasures">Pleasures: </string>
+    <string name="socialize">Socialize: </string>
+    <string name="others">Others: </string>
+    <string name="supply">Supply: </string>
+    <string name="number">Number</string>
+    <string name="budget">Budget-</string>
+    <string name="loan">Loan</string>
+    <string name="who">Who?</string>
+    <string name="sum">Sum: </string>
+
+
+</resources>
